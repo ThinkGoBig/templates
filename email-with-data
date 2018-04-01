@@ -1,0 +1,257 @@
+
+<!-- THIS EMAIL WAS BUILT AND TESTED WITH LITMUS http://litmus.com -->
+<!-- IT WAS RELEASED UNDER THE MIT LICENSE https://opensource.org/licenses/MIT -->
+<!-- QUESTIONS? TWEET US @LITMUSAPP -->
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* FONTS */
+    @media screen {
+        @font-face {
+          font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+        }  
+    }
+    
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+
+    /* RESET STYLES */
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { background-color: #f4f4f4; height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+    
+    /* MOBILE STYLES */
+    @media screen and (max-width:600px){
+        h1 {
+            font-size: 32px !important;
+            line-height: 32px !important;
+        }
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+</style>
+<!--[if mso]>
+<style type=”text/css”>
+.fallback-font {
+font-family: Arial, sans-serif;
+}
+</style>
+<![endif]-->
+</head>
+<body style="background-color: #f4f4f4; margin: 0 !important; padding: 0 !important;">
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    Your Email Comparison Report is ready to review.
+</div>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <!-- LOGO -->
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+            
+            
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" >
+                
+                <tr>
+                    <td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px;">
+                          <img alt="Logo" src="../images/docs/logo.png" width="50" height="50" style="display: block; width: 50px; max-width: 50px; min-width: 50px; border="0">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class=”fallback-font” bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; ">
+                      <h1 style="font-size: 28px; font-weight: bold; margin: 0;">Email Comparison Report</h1>
+                    </td>
+                </tr>
+        
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+              <!-- COPY -->
+              <tr>
+                <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 30px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; " >
+                <p style="margin: 0;"><b>Message from Andrew Varnerin:</b> This email has aggregates.</p>
+                </td>
+              </tr>
+              
+              <tr>
+              <td>
+              
+               <table style="width: 100%;">
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Number of Emails</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">2</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Total Recipients</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">3</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Average Recipients</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">2</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Unique Open Rate</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">66.67 %</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Total Opens</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">2</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Unique Click Rate</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">33.33 %</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Total Clicks</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">1</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Conversions</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">1</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Total Amount Raised</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">$33.33</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Bounce Rate</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">0.00 %</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Total Bounces</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">0</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Unsubscribe Rate</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">33.33 %</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Total Unsubscriptions</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">1</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>First Sent Date</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">11/30/16</td>
+                </tr>
+                <tr>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; border-bottom: 1px solid #F1F3F5"><b>Last Sent Date</b></td>
+                  <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 10px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400;border-bottom: 1px solid #F1F3F5; text-align: right; ">3/2/17</td>
+
+              </table>
+              </td>
+            </tr>
+                  
+              
+            <tr>
+                <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 20px 30px 30px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; " >
+                <p style="margin: 0;"><b>Scheduled By:</b> Andrew Varnerin</p>
+                </td>
+              </tr>
+              
+              <tr>
+                <td class=”fallback-font” bgcolor="#ffffff" align="left" style="padding: 0px 30px 30px 30px; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; " >
+                <p style="margin: 0;"><b>Run Date &amp; Time:</b> 3/9/2017 12:03:42 PM ET</p>
+                </td>
+              </tr>
+              
+
+
+                 <!-- BULLETPROOF BUTTON -->
+              <tr>
+                <td bgcolor="#ffffff" align="left">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td bgcolor="#ffffff" align="center" style="padding: 0px 30px 30px 30px;">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                              <td class=”fallback-font” align="center" style="border-radius: 4px;" bgcolor="#228ae6"><a class=”fallback-font” href="#" target="_blank" style="font-size: 18px; font-family: -apple-system, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 4px; border: 1px solid #228ae6; display: inline-block;">Download Report</a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              
+            </td>
+            </tr>
+        </table>
+
+              <!-- COPY -->                      
+                <tr>
+                <td class=”fallback-font” bgcolor="#ffffff" align="center" style="padding: 20px 30px 40px 30px;; color: #212529; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;" >
+                  <h2 style="font-size: 16px; font-weight: 400; color: #111111; margin: 0;">We&rsquo;re here to help. Email us anytime.</h2>
+                    <p style="margin: 0;"><a href="mailto:support@ngpvan.com" target="_blank" style="color: #228ae6;">support@ngpvan.com</a></p>
+                </td>
+              </tr>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+
+    <!-- FOOTER -->
+    <tr>
+        <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" >
+              <!-- NAVIGATION -->
+              <tr>
+                <td class=”fallback-font” bgcolor="#f4f4f4" align="center" style="padding: 20px 30px 10px 30px; color: #868e96; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 400; line-height: 16px;" >
+                  <p style="margin: 0;">
+                    <a href="#" style="font-weight: bold; text-decoration: underline; color: #868e96;">Unsubscribe</a>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class=”fallback-font” bgcolor="#f4f4f4" align="center" style="padding: 0px 30px 30px 30px; color: #868e96; font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 400; line-height: 16px;" >
+                  <p style="margin: 0;">
+                        NGP VAN, 1445 New York Ave NW, Suite 200, Washington, DC 20005</p>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    </table>
+
+           
+</body>
+</html>
