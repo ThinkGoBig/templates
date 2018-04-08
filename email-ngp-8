@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Donna Shalala Democrat for Congress</title>
+	<title>[[INSERT CAMPAIGN NAME HERE]]</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width" />
-	<style type="text/css">#outlook a {
+	<style type="text/css">
+        #outlook a {
             padding: 0;
         }
-        
         body {
             width: 100% !important;
             min-width: 100%;
@@ -954,7 +954,7 @@
 									<td class="wrapper last" style="word-break: break-word; vertical-align: top; color: rgb(57, 67, 87); font-family: Tahoma, sans-serif; font-weight: normal; margin: 0px; font-size: 16px; line-height: 19px; padding: 10px 0px 0px; position: relative; border-collapse: collapse !important; text-align: center;">
 									<p style="text-align: center;">&nbsp;</p>
 
-									<p style="text-align: center;">{{DS Logo Transparent::unlxkjmmEeiAwwAVXaeLvQ2}}</p>
+									<p style="text-align: center;">[[INSERT LOGO URL HERE]]</p>
 
 									<p style="text-align: center;">&nbsp;</p>
 									</td>
@@ -1023,7 +1023,7 @@
 
 												<p style="text-align:center;color:#394357;font-family:Tahoma, sans-serif;font-weight:normal;padding-top:10;padding-bottom:10;padding-right:10;padding-left:10;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;display:block;width:300px;border:1px solid #394357;font-size:16px;margin-bottom:10px;line-height:22px;">Paid for by {{Disclaimer}}</p>
 
-												<p style="text-align:center;color:#394357;font-family:Tahoma, sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;font-size:16px;margin-bottom:10px;line-height:22px;"><a href="http://donnashalala.com">www.DonnaShalala.com</a></p>
+												<p style="text-align:center;color:#394357;font-family:Tahoma, sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;font-size:16px;margin-bottom:10px;line-height:22px;"><a href="[[INSERT CAMPAIGN URL HERE]]">[[INSERT CAMPAIGN URL HERE]]</a></p>
 												&nbsp;
 
 												<p style="text-align:center;color:#394357;font-family:Tahoma, sans-serif;font-weight:normal;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;margin-top:0;margin-right:0;margin-left:0;font-size:16px;margin-bottom:10px;line-height:22px;">{{OrganizationAddress}}</p>
