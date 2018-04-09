@@ -1,0 +1,570 @@
+/*
+ * Overriding stylesheet for act.myngp.com/Forms/**
+ * 
+ * Color Variables
+ * - Warm-Black:       #073B4C
+ * - Caribbean-Green:  #06D6A0
+ * - Green-Blue:       #1167B0
+ * - Spiro-Disco-Ball: #1DCAF9
+ * - Orange-Yellow:    #FFBA3A
+ * - Infra-Red:        #EF476F
+ *
+ */
+/*
+ * Global Box Sizing
+ * ------------------------------------------------------------------------------------------------ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Adjust body color to reduce contrast
+ * ------------------------------------------------------------------------------------------------ */
+html,
+body {
+  color: #073B4C;
+}
+
+/*
+ * Clear out all wrapper styles for mobile first layout.
+ * ------------------------------------------------------------------------------------------------ */
+.ngp-content {
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+}
+
+.ngp-content .ngp-content {
+  padding: 0 16px !important;
+}
+
+.ngp-content .ngp-content .ngp-body {
+  padding: 0 !important;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper legend,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item span,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dt,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dt span,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd span,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dt label,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd span input,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd select,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-amount,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item span input#edit-otheramount,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dd,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dt,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dt label,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dd,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dd input,
+.ngp-content .ngp-content .ngp-body .contribute {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-FirstName,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-LastName,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-AddressLine1,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-AddressLine2,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-City,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-StateProvince,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-HomePhone,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-EmailAddress,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-Employer,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-Occupation {
+    width: 48% !important;
+    min-width: 48% !important;
+    max-width: 48% !important;
+    margin: 0 1% !important;
+  }
+
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-City,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-StateProvince,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-PostalCode,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-ccNumber,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-ExpirationMonth,
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-ExpirationYear {
+    width: 31% !important;
+    min-width: 31% !important;
+    max-width: 31% !important;
+    margin: 0 1.125% !important;
+  }
+}
+@media screen and (min-width: 996px) {
+  .ngp-content .ngp-content .ngp-body div.clearfix {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col {
+    width: 48% !important;
+    min-width: 48% !important;
+    max-width: 48% !important;
+  }
+
+  .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col.ngp-primary {
+    margin-right: 4% !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ngp-content .ngp-content .ngp-subhead,
+  .ngp-content .ngp-content .ngp-body,
+  .ngp-content .ngp-content footer {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+}
+
+/*
+ * Header Section
+ * ------------------------------------------------------------------------------------------------ */
+.ngp-content .ngp-content .ngp-subhead {
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border-radius: 4px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.ngp-content .ngp-content .ngp-subhead h1:first-child {
+    padding: 16px;
+    color: #073B4C;
+}
+.ngp-content .ngp-content .ngp-subhead h1:nth-child(2) {
+    padding: 32px 16px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.ngp-content .ngp-content .ngp-subhead div {
+    font-size: 16px;
+    padding: 0 8px;
+    color: #073B4C;
+}
+
+/*
+ * Fast Action Call Out Section
+ * ------------------------------------------------------------------------------------------------ */
+.markup-FastAction,
+.fastaction-block,
+.fastAction,
+.fastAction p {
+  width: 100%;
+  min-width: 100%;
+}
+
+.markup-FastAction .fastaction-block .fastAction {
+  margin: 0 0 32px;
+  border: none;
+  padding: 32px 16px !important;
+  background: #1167B0;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (min-width: 768px) {
+  .markup-FastAction .fastaction-block .fastAction {
+    padding: 32px 48px !important;
+  }
+}
+.markup-FastAction .fastaction-block .fastAction p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 660px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .markup-FastAction .fastaction-block .fastAction p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .markup-FastAction .fastaction-block .fastAction p {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 24px;
+    text-align: left;
+  }
+}
+.markup-FastAction .fastaction-block .fastAction p .fa-cta {
+  position: relative;
+}
+
+.markup-FastAction .fastaction-block .fastAction p .fa-lead {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .markup-FastAction .fastaction-block .fastAction p .fa-lead {
+    margin-bottom: 0;
+  }
+}
+.markup-FastAction .fastaction-block .fastAction p .fa-lead .call-modal {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.markup-FastAction .fastaction-block .fastAction p .fa-cta .profile-link {
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 24px 64px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 4px 0 0 #ccc;
+  -webkit-transition-duration: .15s;
+          transition-duration: .15s;
+}
+
+.markup-FastAction .fastaction-block .fastAction p .fa-cta .profile-link:hover,
+.markup-FastAction .fastaction-block .fastAction p .fa-cta .profile-link:focus {
+  box-shadow: 0 2px 0 0 #ccc;
+}
+
+.markup-FastAction .fastaction-block .fastAction #fastaction-whatsthis {
+  position: absolute;
+  top: -12px;
+  right: -32px;
+  margin: 0;
+  padding: 4px;
+  height: 24px;
+  width: 24px;
+  font-size: 20px;
+  font-family: inherit;
+  background: #1DCAF9;
+}
+
+/*
+ * Form styles
+ * ------------------------------------------------------------------------------------------------ */
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper {
+  margin-bottom: 32px !important;
+  border-radius: 4px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.05);
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper legend {
+  padding: 16px !important;
+  color: #1167B0;
+  font-size: 18px;
+  background: #eee;
+  border: none;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent {
+  padding: 32px 16px !important;
+  background: #fff;
+  border: 2px solid #eee;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item:not(:last-of-type),
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .cards,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-ccNumber {
+  margin-bottom: 32px !important;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dt label,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dt label {
+  position: relative;
+  margin-bottom: 8px !important;
+  color: #073B4C;
+  font-size: 14px;
+  text-align: left;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dt label.required,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dt label.required {
+  background: none !important;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dt label.required:after,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dt label.required:after {
+  content: "*";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  margin-left: 4px;
+  color: #EF476F;
+  font-size: 18px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd span input,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd select,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item span input,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent input,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item span input#edit-otheramount,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dd input {
+  padding: 8px !important;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd span input:focus,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item dd select:focus,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl dd input:focus {
+  outline: none;
+  border-color: #1167B0;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.05);
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.markup-LegalHeaderHtml p {
+  width: 100%;
+  min-width: 100%;
+  padding: 16px;
+  color: #FFBA3A;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background: #FFF9ED;
+  border: 1px solid #FFBA3A;
+  border-radius: 4px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-Occupation {
+  margin-bottom: 16px !important;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent dl.ngp-amount dt {
+  width: 100% !important;
+  min-width: 100% !important;
+  height: auto;
+  margin-bottom: 8px;
+  color: #073B4C;
+  font-size: 14px;
+  text-align: left;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-SelectAmount {
+    width: 31% !important;
+    min-width: 31% !important;
+    max-width: 31% !important;
+}
+@media screen and (min-width: 768px) {
+    .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-SelectAmount {
+        width: 15% !important;
+        min-width: 15% !important;
+        max-width: 15% !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-SelectAmount {
+        width: 31% !important;
+        min-width: 31% !important;
+        max-width: 31% !important;
+    }
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item.form-item-SelectAmount.other {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item input[type="radio"] {
+  visibility: hidden;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item input[type="radio"] + label {
+  display: block;
+  padding: 16px;
+  color: #073B4C;
+  font-size: 16px;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item input[type="radio"]:checked + label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background: #06D6A0;
+  border: 1px solid #06D6A0;
+  border-radius: 4px;
+}
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item label#label-otheramount {
+  display: block;
+  padding: 0;
+  color: #073B4C;
+  font-size: 14px;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: default;   
+}
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .form-item span input#edit-otheramount {
+  margin-top: 8px !important;
+  border: 1px solid #eee;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col #updateMyProfileSection {
+  margin-top: 32px !important;
+  padding: 10px !important;
+  background: #1167B0;
+  border-radius: 4px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dt,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dd #edit-isrecurring,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col #updateMyProfileSection input {
+  visibility: hidden;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  margin: 0;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dd .ngp-recurring-SelectedFrequency-label,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col #updateMyProfileSection label {
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  background: none;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dd .ngp-recurring-SelectedFrequency-label:before,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col #updateMyProfileSection label:before {
+  content: '';
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  width: 34px;
+  height: 34px;
+  padding: 6px;
+  font-size: 24px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dd #edit-isrecurring:checked + label:before,
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col #updateMyProfileSection input:checked + label:before {
+  content: "\2714";
+  background: #06D6A0;
+  color: #fff;
+}
+
+.ngp-content .ngp-content .ngp-body div.clearfix .col.ngp-col .form-wrapper .ngp-fieldsetContent .ngp-recurringContributions dd #edit-selectedfrequency {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ngp-content .ngp-content .ngp-body .contribute button {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+  padding: 16px 32px !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  background: #06D6A0;
+  color: #fff;
+  text-shadow: none;
+  border: none;
+  box-shadow: 0 4px 0 0 #05C18F;
+  -webkit-transition-duration: .15s;
+          transition-duration: .15s;
+}
+
+.ngp-content .ngp-content .ngp-body .contribute button:hover,
+.ngp-content .ngp-content .ngp-body .contribute button:focus {
+  box-shadow: 0 2px 0 0 #05C18F;
+}
