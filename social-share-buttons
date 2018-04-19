@@ -1,0 +1,5 @@
+/* Facebook Share Button */
+<a style="text-align: center; background: #3B5998; padding: 15px; color: #ffffff; font-weight: bold; text-decoration: none; width: 200px; display: block; margin: 0px auto 40px;" href="http://www.facebook.com/sharer/sharer.php?u=[URL HERE]">SHARE ON FACEBOOK</a>
+
+/* Twitter Share Button */
+<a style="text-align: center; background: #00aced; padding: 15px; color: #ffffff; font-weight: bold; text-decoration: none; width: 200px; display: block; margin: 0px auto 40px;" href="http://twitter.com/share?url=[URL HERE]&amp;text=[TEXT TO TWEET HERE]">SHARE ON TWITTER</a>
