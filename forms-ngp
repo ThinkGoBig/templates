@@ -1,0 +1,359 @@
+/*
+ * Styles to override forms on the https://donnashalala.com website.
+ *
+ * NGP Form Defaults First.
+ * Custom Footer Form Styles To Override Defaults.
+ *
+ * Colors:
+ *  - ColorBlue      #17335A
+ *  - ColorBlueLight #4F7CAC
+ *  - ColorGreen     #2FBF71
+ *  - ColorRed       #e7262c 
+ *  - ColorGrey      #E6E8E6
+ *  - ColorGreyDark  #CED0CE
+ *
+ */
+
+/* Remove unwanted fields */
+.ngp-form .at-title,
+.ngp-form .at-legend {
+    display: none;
+}
+
+/* Reset width, margin and padding */
+.ngp-form,
+.ngp-form .at-fieldset,
+.ngp-form .at-fieldset .at-fields,
+.ngp-form .at-fieldset .at-fields .at-row,
+.ngp-form .at-fieldset .at-fields .at-row>[class^="at-"],
+.ngp-form .at-fieldset .at-fields .at-row label,
+.ngp-form .at-fieldset .at-fields .at-row label input,
+.ngp-form .at-form-submit,
+.ngp-form .at-form-submit input,
+.wpcf7-form {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Create default label style */
+.ngp-form .at-fieldset .at-fields .at-row label,
+.wpcf7-form label {
+    color: #17335A;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label u {
+    text-decoration: none;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row .at-markup label {
+    margin-bottom: 24px;
+}
+
+/* Create default input style */
+.ngp-form .at-fieldset .at-fields .at-row label input,
+.wpcf7-form input {
+    margin-top: 4px;
+    margin-bottom: 24px !important;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label input[type="text"],
+.ngp-form .at-fieldset .at-fields .at-row label input[type="tel"],
+.ngp-form .at-fieldset .at-fields .at-row label input[type="email"],
+.wpcf7-form label input[type="text"],
+.wpcf7-form label input[type="tel"],
+.wpcf7-form label input[type="email"],
+.wpcf7-form span input[type="text"],
+.wpcf7-form span input[type="tel"],
+.wpcf7-form span input[type="email"] {
+    min-height: 48px;
+    height: 48px;
+    padding: 16px !important;
+    font-size: 16px !important;
+    background: #ffffff !important;
+    border: 1px solid #E6E8E6 !important;
+    border-radius: 0;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label input[type="text"]:focus,
+.ngp-form .at-fieldset .at-fields .at-row label input[type="tel"]:focus,
+.ngp-form .at-fieldset .at-fields .at-row label input[type="email"]:focus,
+.wpcf7-form label input[type="text"]:focus,
+.wpcf7-form label input[type="tel"]:focus,
+.wpcf7-form label input[type="email"]:focus,
+.wpcf7-form span input[type="text"]:focus,
+.wpcf7-form span input[type="tel"]:focus,
+.wpcf7-form span input[type="email"]:focus {
+    min-height: 48px;
+    height: 48px;
+    padding: 16px;
+    font-size: 16px;
+    background: #ffffff !important;
+    border: 1px solid #CED0CE !important;;
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label input[type="checkbox"]+span {
+    padding-left: 32px;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label input[type="checkbox"]+span:before,
+.wpcf7-form label input[type="checkbox"]+span:before {
+    background: #ffffff !important;
+    border: 1px solid #E6E8E6 !important;
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    margin-right: 16px;
+    text-align: center;
+    border-radius: 0;
+}
+ 
+.ngp-form .at-fieldset .at-fields input[type="checkbox"]:focus+span:before,
+.wpcf7-form label input[type="checkbox"]:focus+span:before {
+    box-shadow: none !important;
+    border-color: rgba(255,255,255,0);
+    outline: none;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label input[type="checkbox"]:checked+span:after,
+.wpcf7-form label input[type="checkbox"]:checked+span:after {
+    display: none !important;
+}
+
+.ngp-form .at-fieldset .at-fields .at-row label input[type="checkbox"]:checked+span:before,
+.wpcf7-form label input[type="checkbox"]:checked+span:before {
+    content: "\2714";
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 0;
+    color: #ffffff !important;
+    background: #4F7CAC !important;
+    line-height: 1.3;
+}
+
+.ngp-form .at-form-submit,
+.wpcf7-submit {
+     display: block;
+     min-width: 100%;
+}
+ 
+.ngp-form .at-form-submit .at-submit,
+input[type="submit"].wpcf7-submit {
+     min-width: 100% !important;
+     min-height: 48px !important;
+     padding: 14px 8px !important;
+     margin-top: 16px !important;
+     margin-bottom: 0 !important;
+     font-size: 16px !important;
+     font-weight: bold !important;
+     color: #ffffff !important;
+     background-color: #2FBF71 !important;
+     text-transform: uppercase !important;
+     border: none !important;
+     border-radius: 4px !important;
+}
+
+.ngp-form .at-form-submit .at-submit:hover,
+.wpcf7-submit:hover,
+.ngp-form .at-form-submit .at-submit:focus,
+.wpcf7-submit:focus {
+     min-width: 100% !important;
+     min-height: 48px !important;
+     padding: 14px 8px !important;
+     margin-top: 16px !important;
+     font-size: 16px !important;
+     font-weight: bold !important;
+     color: #ffffff !important;
+     background-color: #00BA56 !important;
+     text-transform: uppercase !important;
+     border: none !important;
+     border-radius:  4px !important;
+}
+
+.at .error small.error {
+    font-size: 16px;
+}
+
+.ngp-form .UpdateMyProfile {
+  display: none !important;
+}
+
+/* Above footer Signup */
+.ds-above-footer-signup .YesSignMeUpForUpdatesForBinder {
+    display: none !important;
+}
+
+.ds-above-footer-signup {
+    border-top: 5px solid #17335A;
+}
+
+.ds-above-footer-signup,
+.ds-above-footer-signup .at-inner {
+    min-width: 100%;
+    background-color: #E6E8E6;
+}
+
+.ds-above-footer-signup,
+.ds-above-footer-signup .fl-row-content-wrap,
+.ds-above-footer-signup .fl-row-fixed-width,
+.ds-above-footer-signup .fl-module-content {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+
+.ds-above-footer-signup .ngp-form {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
+
+.ds-above-footer-signup .ngp-form .at-fieldset .at-fields .at-row label,
+.ds-above-footer-signup .fl-heading-text {
+    color: #17335A;
+    text-transform: uppercase;
+}
+
+.ds-above-footer-signup .fl-heading-text {
+    display: block;
+    padding-left: 16px;
+    padding-top: 32px;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.uabb-modal-parent-wrapper .uabb-content {
+    background-color: #17335A;
+    border: 2px solid #ffffff;
+}
+
+.uabb-modal-parent-wrapper .uabb-modal-title-wrap {
+    padding: 30px 30px 0;
+}
+
+.uabb-modal-parent-wrapper .uabb-modal-title {
+    color: #ffffff;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.uabb-modal-parent-wrapper .at-inner {
+    background-color: #17335A;
+}
+
+.uabb-modal-parent-wrapper .ngp-form .at-fieldset .at-fields .at-row label {
+    color: #ffffff;
+}
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset.AdditionalInformation .CustomFieldHeaderHtml {
+        display: none;
+    }
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields,
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row.FirstName.LastName,
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row.EmailAddress.MobilePhone,
+    .ngp-form #NVVolunteerForm77862 .at-fieldset.AdditionalInformation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row.FirstName.LastName {
+        max-width: 74%;
+        min-width: 74%;
+        width: 74%;      
+    }
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row .FirstName,
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row .LastName,
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row .EmailAddress,
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row .MobilePhone {
+        max-width: 49%;
+        min-width: 49%;
+        width: 49%;  
+    }
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset .at-fields .at-row.PostalCode {
+        max-width: 25%;
+        min-width: 25%;
+        width: 25%;    
+    }
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset.AdditionalInformation .at-fields .at-row-full {
+        max-width: 33.333333%;
+        min-width: 33.333333%;
+        width: 33.333333%; 
+        margin-bottom: 16px;
+    }
+
+    .ngp-form #NVVolunteerForm77862 .at-fieldset.AdditionalInformation .at-fields .at-row-full.Volunteer {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .ds-above-footer-signup .fl-heading-text {
+        text-align: center;
+    }
+
+    .ds-above-footer-signup .at-fields {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ds-above-footer-signup .ngp-form .at-fieldset .at-fields .at-row {
+        max-width: 32%;
+        min-width: 32%;
+        width: 32%;
+    }
+
+}
+@media screen and (min-width: 992px) {
+
+    .ds-above-footer-signup .ngp-form form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .ds-above-footer-signup .ngp-form .at-fieldset .at-fields .at-row label input {
+        margin: 0;
+    }
+
+    .ds-above-footer-signup .ngp-form .at-fieldset {
+        max-width: 74%;
+        min-width: 74%;
+        width: 74%;
+    }
+
+    .ds-above-footer-signup .ngp-form .at-form-submit {
+        max-width: 20%;
+        min-width: 20%;
+        width: 20%;
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+
+}
+
+.ngp-form .UpdateMyProfile {
+  display: none !important;
+}
