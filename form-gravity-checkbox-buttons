@@ -1,0 +1,48 @@
+/**
+* Add custom-form-class to the form settings
+* Add custom-checkbox-class to the checkbox field settings
+*/
+.custom-form-class .custom-checkbox-class .ginput_container ul li label {
+padding-top: 24px;
+    padding-top: 1.5rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
+    float: none;
+    -webkit-box-shadow: 0 -1px 0 #4db8b5 inset, 0 -2px 0 #49b7b3 inset, 0 -3px 0 #47b4b0 inset, 0 -4px 0 #44aca9 inset;
+    -moz-box-shadow: 0 -1px 0 #4db8b5 inset,0 -2px 0 #49b7b3 inset,0 -3px 0 #47b4b0 inset,0 -4px 0 #44aca9 inset;
+    box-shadow: 0 -1px 0 #4db8b5 inset, 0 -2px 0 #49b7b3 inset, 0 -3px 0 #47b4b0 inset, 0 -4px 0 #44aca9 inset;
+    background: #6ac4c1;
+    border-bottom: 1px solid #3c9794;
+    color: #fff;
+    letter-spacing: 0.09375rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-family: "ff-tisa-sans-web-pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    display: block;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    -webkit-appearance: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    box-sizing: border-box;
+width: 300px;
+    margin: 0px auto;
+}
+.custom-form-class .custom-checkbox-class .ginput_container ul li input {
+    display: none;
+}
