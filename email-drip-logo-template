@@ -11,7 +11,7 @@
 * {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -25,6 +25,9 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: none;
   width: 100% !important;
+  max-width:600px !important;
+  display:block;
+  margin:0 auto;
   height: 100%;
   line-height: 1.6;
 }
@@ -69,7 +72,7 @@ img {
 /* Type */
 
 p, ul, ol {
-  margin-bottom: 14px;
+  margin-bottom: 17px;
   font-weight: normal;
 }
 
@@ -173,13 +176,13 @@ a:active {
 
 .main-content {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   color: #222222;
   line-height: 1.5;
   padding: 25px;
 }
 .main-content img {
-  margin-top: 14px;
+  margin-top: 17px;
 }
 .footer-content {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
@@ -187,6 +190,11 @@ a:active {
   clear: both;
   color: #777;
   padding: 25px;
+  font-size:12px !important;
+}
+
+.footer-content a {
+    font-size:12px !important;
 }
 
 /* styles for .cta-button */
