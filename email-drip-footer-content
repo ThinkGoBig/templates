@@ -1,0 +1,9 @@
+<br />
+<br />
+&nbsp;
+<p class="disclosure" style="padding:10px;text-align:center;line-height:1.25;max-width:300px;margin:0 auto;display:block;border:1px solid #000000;font-size:12px;">Paid for by [GROUP NAME HERE]. Not authorized by any candidate or candidate’s committee.</p>
+<br />
+<br />
+To make sure you keep getting these emails, please add {{ from_email }} to your address book or whitelist us. Want out of the loop? {{ unsubscribe_link }}.<br />
+<br />
+Our postal address: {{ inline_postal_address }}
