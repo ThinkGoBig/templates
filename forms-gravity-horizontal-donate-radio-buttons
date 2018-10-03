@@ -1,0 +1,106 @@
+/*
+* https://designtlc.com/turn-radio-buttons-big-buttons-gravity-form/
+* https://gravitywiz.com/build-horizontal-forms-gravity-forms/
+* https://www.wpfangirl.com/2015/go-live-checklist-for-gravity-forms-more-stripe/
+*
+* Form Settings CSS Class: gfp_big_button gf_simple_horizontal
+* Form Field Radio CSS Class: gf_list_inline
+*/
+
+.gform_wrapper form.gf_simple_horizontal {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gform_wrapper {
+	margin:0px;
+}
+
+.pp-gf-content .gform_wrapper .gform_body {
+	width:70%;
+}
+
+.gform_wrapper form.gf_simple_horizontal div.gform_body {
+    max-width: 100%;
+		width:auto !important;
+}
+
+.gform_wrapper form.gf_simple_horizontal div.gform_footer.top_label {
+    max-width: 100%;
+		height:50px;
+		vertical-align:top;
+}
+
+.ginput_price, .gform_wrapper .gfield .gfield_label {
+		display: none !important;
+}
+
+
+gform_wrapper ul.gfield_checkbox, .gform_wrapper ul.gfield_radio {
+    margin: 0;
+    padding: 0;
+}
+
+
+.gfp_big_button .gfield_radio li input[type=radio] {
+    display:none;
+}
+.gfp_big_button .gfield_radio label {
+		width:100%;
+    margin: 0px auto;
+    padding: 15px 30px !important;
+    float: none;
+    background: #21486D;
+    color: #ffffff;
+    letter-spacing: 0.09375rem;
+		border:1px solid #f8f8f8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    display: block;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    -webkit-appearance: none;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.15em !important;
+    box-sizing: border-box;
+}
+
+.gfp_big_button .gfield_radio label:hover {
+    background: #333333;
+		color:#ffffff;
+}
+
+.gform_wrapper .gfield_radio li label {
+	margin:0;
+	width:120px !important;
+	min-width:100%;
+}
+
+.gfield_radio li input[type=radio]:checked + label {
+background: green;
+	color:#ffffff;
+}
+
+.gform_wrapper form.gf_simple_horizontal div.gform_footer.top_label input[type=submit], .gform_wrapper form.gf_simple_horizontal div.gform_footer.top_label input[type=button], .gform_wrapper form.gf_simple_horizontal div.gform_footer.top_label input[type=image] {
+    height: 55px;
+    margin: 0px;
+}
+
+.gform_wrapper form.gf_simple_horizontal div.gform_footer.top_label input[type=submit] {
+	width:100%;
+	min-width:120px;
+	background:#ff0000;
+	border:1px solid #ff0000;
+	font-weight:bold;
+	font-size:1.15em !important;
+}
