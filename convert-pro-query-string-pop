@@ -1,0 +1,30 @@
+
+/**
+* Display call-to-action based on URL parameter
+*/
+function cpro_check_url_parameter( $display, $style_id ) {
+
+// Replace 93 with your style ID
+if( '110' == $style_id ) {
+
+// Replace "utm" with your GET parameter from URL, replace "facebook" with your parameter value
+if( isset( $_GET['cproid'] ) && 'petition' == $_GET['cproid'] ) {
+$display = true;
+} else {
+$display = false;
+}
+}
+
+return $display;
+}
+add_filter( 'cp_pro_target_page_settings', 'cpro_check_url_parameter', 10, 3 );
+
+
+
+/**
+* The above code indicated that if the URL matches the parameter name with value then only the welcome mat popup will trigger.
+*
+* Let's take an example: If the Page URL is http://thinkgobigdev.wpengine.com/url-page/?cproid=petition then the welcome mat popup will trigger because the code is matching the name and value from the URL.
+*
+* To let you know that if the URL contains "?cproid=petition" name-value pair format then only it will trigger the popup.
+*/
