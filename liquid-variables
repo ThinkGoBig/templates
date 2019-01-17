@@ -1,0 +1,2 @@
+// Used for workflows and rules for adding value to custom subscriber field
+{{ subscriber.guncontrol_interest | default: 0 | plus: 1 }}
