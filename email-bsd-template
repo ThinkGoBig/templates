@@ -1,0 +1,279 @@
+/*
+*
+* BSD Email Template from https://tools.bluestatedigital.com/the-assistants/email
+* HTML Header
+*/
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Organizing for Bernie Responsive Email Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 600px; /*width: 100%;*/}
+    table{border-collapse: collapse !important;}
+    body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+    a{color: #2F7DC3; text-decoration: none !important; font-weight: 700;}
+    a:hover{text-decoration: underline;}
+    .social-icon:hover{opacity: 0.8;}
+    .footer a{color:#FFFFFF; text-decoration: underline;}
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /* IMG RESIZING FOR MOBILE */
+    .padding-copy img {
+    	width: 100%;
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        .wrapper {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        .logo img {
+          margin: 0 auto !important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .img-max {
+          max-width: 100% !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        .responsive-table {
+          width: 100% !important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        .padding {
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        .padding-meta {
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        .padding-copy {
+             padding: 10px 5% 10px 5% !important;
+        }
+
+        .no-padding {
+          padding: 0 !important;
+        }
+
+        .section-padding {
+          padding: 50px 15px 50px 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        .mobile-button-container {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .mobile-button {
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+            display: block !important;
+        }
+
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+</style>
+</head>
+<body style="margin: 0 !important; padding: 0 !important; font-family: sans-serif;">
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+</div>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <!-- HEADER -->
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" class="wrapper">
+                <tr>
+                    <td class="spacer" style="padding-top: 8px; padding-bottom: 7px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td align="center" valign="top" style="padding: 15px 0;" class="logo">
+                        <a href="https://organizingforbernie.com" target="_blank">
+                            <img src="https://secure.organizingforbernie.com/page/-/OFBlogo-email.png" class="logo" width="100%" height="auto" style="display: block; max-width: 300px; max-height: 124px; width: 100%; font-family: sans-serif; color: #000000; font-size: 16px;" border="0" alt="Organizing for Bernie Logo">
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="spacer" style="padding-top: 8px; padding-bottom: 7px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td class="divider" style="background-color: #2F7DC3; padding-top: 2px; padding-bottom: 3px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+
+    <!-- CONTENT  -->
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 15px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- COPY -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="left" style="padding: 20px 0 0 0; font-family: sans-serif; color:#000000; font-size:16px; line-height: 28px; font-weight: normal;" class="padding-copy">
+                                <!-- WRAPPER TOP  -->
+                                
+                                
+  /*
+*
+* BSD Email Template from https://tools.bluestatedigital.com/the-assistants/email
+* HTML Footer
+*/
+
+                                    <!-- WRAPPER BOTTOM -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+
+    <!-- FOOTER  -->
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+            <!-- UNSUBSCRIBE COPY -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="background: #2F7DC3; max-width: 600px; padding: 20px 0px;" class="responsive-table">
+
+                <tr>
+                    <td class="spacer" style="padding-top: 8px; padding-bottom: 7px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td align="center" class="social">
+                            &nbsp;<a href="https://www.facebook.com/organizingforbernie/" target="_blank" class="social-icon" style="color: #FBAF3F; text-decoration: underline; font-weight: normal; display: inline-block; padding: 0 2px"><img src="https://s3.amazonaws.com/b.3cdn.net/email-assets/icon-facebook-white.png" width="40" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none"></a>&nbsp;
+                            &nbsp;<a href="https://twitter.com/OFB2020" target="_blank" class="social-icon" style="color: #FBAF3F; text-decoration: underline; font-weight: normal; display: inline-block; padding: 0 2px"><img src="https://s3.amazonaws.com/b.3cdn.net/email-assets/icon-twitter-white.png" width="40" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none"></a>&nbsp;
+                            &nbsp;<a href="https://www.instagram.com/organizingforbernie/" target="_blank" class="social-icon" style="color: #FBAF3F; text-decoration: underline; font-weight: normal; display: inline-block; padding: 0 2px"><img src="https://s3.amazonaws.com/b.3cdn.net/email-assets/icon-instagram-white.png" width="40" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none"></a>&nbsp;
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="spacer" style="padding-top: 8px; padding-bottom: 7px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td align="center">
+                        <p style="text-align: center; line-height: 1.75; font-size: 12px; color: #FFFFFF;font-family: sans-serif;">
+                            2921 W 38th Ave.<br />
+Suite 328<br />
+Denver, CO 80211<br /><br><br>
+                            <a href="%%UNSUBSCRIBE%%" target="_blank" style="color: #FFFFFF; text-decoration: underline; font-weight: bold";font-family: sans-serif;>Unsubscribe</a>
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="spacer" style="padding-top: 8px; padding-bottom: 7px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+
+
+                    <tr>
+                        <td align="center" class="cta" style="text-align: center; padding: 0 20px;">
+                            <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                <tr>
+                                    <td align="center" style="text-align: center;">
+                                        <table border="1" bordercolor="#FFFFFF" cellspacing="0" cellpadding="10" align="center" style="margin: 0 auto; border: 1px solid #ffffff;">
+                                            <tr>
+                                                <td align="center">
+
+                                                    <p style="text-align: center; line-height: 1.75; font-size: 12px; color: #FFFFFF; font-family: sans-serif;"><!--[if mso]>&nbsp;<![endif]-->Paid for by Organizing for Bernie, Draft Bernie and not authorized by any candidate or candidate’s committee. Contributions to Organizing for Bernie are Not Deductible for Federal Tax Purposes.<!--[if mso]>&nbsp;<![endif]--></p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="spacer" style="padding-top: 15px; padding-bottom: 15px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                    </tr>
+
+                <tr>
+                    <td class="spacer" style="padding-top: 8px; padding-bottom: 7px; line-height: 0; border-collapse: collapse">&nbsp;</td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
