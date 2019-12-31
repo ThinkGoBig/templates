@@ -1,0 +1,9 @@
+/* 
+*   Sticky Transparent Header CSS
+*   Goes in CSS box of Elementor Nav Widget
+*
+*/
+selector.elementor-sticky--effects{ background-color: rgba(133,130,255,0.5) !important }
+selector{ transition: background-color 4s ease !important; }
+selector.elementor-sticky--effects >.elementor-container{ min-height: 80px; }
+selector > .elementor-container{ transition: min-height 1s ease !important; }
