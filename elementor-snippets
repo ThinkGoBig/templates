@@ -1,7 +1,7 @@
 /* 
 *   Sticky Transparent Header CSS
 *   Goes in CSS box of Elementor Nav Widget
-*
+*   More information here: https://docs.elementor.com/article/459-how-to-create-a-sticky-header
 */
 selector.elementor-sticky--effects{ background-color: rgba(133,130,255,0.5) !important }
 selector{ transition: background-color 4s ease !important; }
