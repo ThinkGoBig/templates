@@ -3,7 +3,25 @@
 *   Goes in CSS box of Elementor Nav Widget
 *   More information here: https://docs.elementor.com/article/459-how-to-create-a-sticky-header
 */
-selector.elementor-sticky--effects{ background-color: rgba(133,130,255,0.5) !important }
+/* 
+*   Sticky Transparent Header CSS
+*   Goes in CSS box of Elementor Nav Widget
+*   More information here: https://docs.elementor.com/article/459-how-to-create-a-sticky-header
+*/
+
+selector.elementor-sticky--effects .header-logo{
+    max-width:60px !important;
+}
+
+selector.elementor-sticky--effects{ background-color: rgba(255,255,255,1.0) !important }
+
+/* selector.elementor-sticky--effects .menu-item a{
+    color:#ffffff !important;
+}
+*/
+
 selector{ transition: background-color 4s ease !important; }
-selector.elementor-sticky--effects >.elementor-container{ min-height: 80px; }
-selector > .elementor-container{ transition: min-height 1s ease !important; }
+
+selector.elementor-sticky--effects >.elementor-container{ max-height: 60px; }
+
+selector > .elementor-container{ transition: min-height 2s ease !important; }
