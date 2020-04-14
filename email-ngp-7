@@ -9,7 +9,7 @@
 								<p style="text-align: center;">
 									&nbsp;</p>
 								<p style="text-align: center;">
-									<a data-form-type="" href="https://fightingforfl.com/join?source=email_logo"><img alt="" height="250" src="/Uploads/1343/images/500x500_FFFL-logo-solid-blue.png" style=" " width="250" /></a></p>
+									<a data-form-type="" href="[ADD YOUR URL HERE]"><img alt="" height="auto" src="https://via.placeholder.com/350x150.png?text=Put+Your+Logo+Here" style=" " width="250" /></a></p>
 								<table cellpadding="20" style="width:100%;max-width:720px;margin: 0 auto;">
 									<tbody>
 										<tr>
@@ -25,19 +25,17 @@
 												<p>
 													<img alt="" height="68" src="/Uploads/1343/images/signature.png" width="200" /></p>
 												<p>
-													Senator Audrey Gibson<br />
-													Senate Democratic Caucus<br />
-													Leader-Designate</p>
+													[SIGNOFF HERE]
 											</td>
 										</tr>
 										<tr>
-											<td align="left" class="footerRow" style="padding: 20px;line-height:36px;">
+											<td align="left" class="footerRow" style="padding: 20px;padding-top:60px;line-height:36px;">
 												<div class="footerSocial">
 													<p align="center" class="orginfo" style="text-align:center">
-														<a data-form-type="" href="https://facebook.com/fightingforfl"><img alt="" height="36" src="/Uploads/1343/images/FDLCC-Facebook.png" style="  margin-left: 20px; margin-right: 20px;" width="36" /></a><a data-form-type="" href="https://twitter.com/fightingforfl"><img alt="" height="36" src="/Uploads/1343/images/FDLCC-Twitter.png" style="  margin-left: 20px; margin-right: 20px;" width="36" /></a></p>
+														<a data-form-type="" href="https://facebook.com/"><img alt="" height="36" src="https://via.placeholder.com/36.png?text=F" style="  margin-left: 0px; margin-right: 20px;" width="36" /></a><a data-form-type="" href="https://twitter.com/"><img alt="" height="36" src="https://via.placeholder.com/36.png?text=T" style="  margin-left: 0px; margin-right: 20px;" width="36" /></a><a data-form-type="" href="https://instagram.com/"><img alt="" height="36" src="https://via.placeholder.com/36.png?text=I" style="  margin-left: 0px; margin-right: 0px;" width="36" /></a></p>
 												</div>
 												<div align="center">
-													<p align="center" class="orginfo" style="text-align:center;margin-top:120px;">
+													<p align="center" class="orginfo" style="text-align:center;margin-top:60px;">
 														{{Disclaimer}}<br />
 														{{OrganizationAddress}}</p>
 													<p align="center" class="unsubscribelink" style="text-align:center">
