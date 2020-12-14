@@ -1,0 +1,80 @@
+/*
+*
+*   WPSimple Pay Stripe forms for use in Oxygen as political donation forms
+*
+*/
+
+/*
+*   Put in code block at top of page
+*   JS tab
+*/
+
+jQuery(function($) {
+  var $allInputs = $(".simpay-amount-radio input[type='radio']");
+  var $labels = $allInputs.closest("label");
+  $allInputs.on("change", function(ev) {
+    $labels.removeClass("active");
+    var $selectedInput = $(this);
+    $selectedInput.closest("label").addClass("active");
+  })
+});
+
+/*
+*   CSS to make it all work
+*/
+.simpay-radio-wrap label {
+  background-color: #ddd !important; 
+  font-family: Arial !important; 
+  font-size: 16px !important; 
+  cursor: pointer !important; 
+  width: 125px !important; 
+  text-align: center !important;
+  margin: 0 !important; 
+  padding: 20px !important; 
+  display: flex !important; 
+  justify-content: center !important; 
+  border-radius: 8px !important;
+}
+
+/*
+*   <768 px
+*/
+
+.simpay-radio-wrap label {
+  width: 100% !important;
+  }
+
+.simpay-radio-wrap label input[type="radio"] {
+  display:none;
+}
+
+.simpay-radio-wrap ul li {
+  margin-top: 12px !important;
+  width:100%;
+}
+
+.simpay-radio-wrap ul li {
+  margin-top: 12px !important;
+  width:100%;
+}
+
+.simpay-radio-wrap ul
+  display: flex !important; 
+  flex-wrap: wrap !important; 
+  justify-content: space-between !important; 
+  align-items: center !important;
+}
+
+
+.simpay-radio-wrap ul li:hover label {
+  background: #000f3a !important; 
+  color: #ffffff !important; 
+  font-weight: bold;
+}
+
+.simpay-amount-radio label.active {
+  background: #24b47e !important; 
+  color: #ffffff !important; 
+  font-weight: bold !important;
+}
+
