@@ -8,26 +8,16 @@
  */
 
 /**
- * Changes the amount the form will charge.
- *
- * Replace 157 with the form ID to target.
- *
- * @param string $amount Amount set from the form settings.
- * @return string
+ * Javascript for oxygen builder to add class to radio buttons to properly style them with css
+ */
  
-function simpay_custom_form_amount( $amount ) {
-
-	if( get_field('donation_page_simpid') ){
-		$donationpageid = get_field('donation_page_simpid');
-	}
-  
-  		else {
-    	$donationpageid = '';
-          
-	}; 
-
-  	$customval = $_GET['amount'] ?? '';
-
-	return $customval;
-}
-add_filter( 'simpay_form_'. $donationpageid . '_amount', 'simpay_custom_form_amount' );
+ 
+jQuery(function($) {
+  var $allInputs = $(".simpay-amount-radio input[type='radio']");
+  var $labels = $allInputs.closest("label");
+  $allInputs.on("change", function(ev) {
+    $labels.removeClass("active");
+    var $selectedInput = $(this);
+    $selectedInput.closest("label").addClass("active");
+  })
+});
