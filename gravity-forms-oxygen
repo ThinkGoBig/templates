@@ -1,0 +1,176 @@
+/*
+*
+* Used for Donation Forms.
+* Also listed here in json format in this repository here:
+* gravityforms-export-2020-12-18.json
+*
+*/
+
+
+
+
+.single-donation_pages uldonation-radio-btns {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.single-donation_pages #input_2_3,
+.single-donation_pages .radio-toggle-2 ul.gfield_radio,
+.single-donation_pages .gform_page_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+  	justify-content:space-between;
+  	align-content:space-between;
+}
+
+
+.single-donation_pages .donation-radio-btns li {
+ 	width: 30%;
+    border: 1px solid #dddddd;
+    background: #dddddd;
+    display: flex;
+    border-radius: 4px;
+    min-width: 75px;
+    margin-bottom: 10px;
+}
+
+.single-donation_pages .radio-toggle-2 ul.gfield_radio li {
+   	width:45%;
+  	display: flex;
+  	border:1px solid #dddddd;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	border-radius:4px;
+	min-width:75px;
+}
+
+.single-donation_pages input[type="radio"] {
+    display: none;
+}
+
+.single-donation_pages input[type="radio"] + label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-weight: bold;
+}
+
+.single-donation_pages input[type="radio"]:hover + label {
+  	background:#233f94;
+  	color:#fff;
+  	border-radius:4px;
+}
+
+.single-donation_pages input[type="radio"]:checked + label {
+	background:#24b47e;
+ 	color:#fff;
+    border: 1px solid blue;
+  	border-radius:4px;
+}
+
+.single-donation_pages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-donation_pages .gfield {
+	margin-bottom: 2em;
+}
+
+.single-donation_pages .gf_progressbar_percentage {
+    display: none;
+}
+
+.single-donation_pages .gfield_label {
+  font-weight:600;
+}
+
+
+.single-donation_pages .gform_validation_error .validation_message{
+	color:#ff0000;
+}
+
+.single-donation_pages input[type="text"],
+.single-donation_pages input[type="email"],
+.single-donation_pages input[type="tel"],
+.single-donation_pages span.address_state select {
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+.single-donation_pages .gform_page_footer input {
+  	display: flex;
+  	border:1px solid #dddddd;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	border-radius:4px;
+	min-width:75px;
+    height: 50px;
+    font-weight:600;
+    text-align:center;
+  	flex-grow:1;
+}
+
+
+.single-donation_pages input.gform_previous_button {
+   	width:45%;
+    background: #dddddd;
+	color:#333333;
+    justify-content: center;
+	flex-grow:0;
+}
+
+.single-donation_pages input.gform_next_button,
+.single-donation_pages input[type="submit"]{
+  	width:45%;
+  	background: green;
+	color:#ffffff;
+    justify-content: center;
+  	flex-grow:0;
+}
+
+.single-donation_pages .donation-form-page-1 input.gform_next_button {
+    width:100%;
+ 	background: green;
+	color:#ffffff;
+    justify-content: center;
+  	flex-grow:1;
+}
+
+.single-donation_pages .donation-form-page-2 .gfield_label,
+.single-donation_pages .hidden_sub_label {
+  display:none;
+}
+
+.single-donation_pages .donation-form-page-2 .employment .gfield_label {
+  display:block;
+  margin-bottom:10px;
+}
+
+.single-donation_pages .donation-form-page-2 .employment .gfield_radio {
+margin-bottom:10px;
+}
+
+.single-donation_pages .donation-form-page-2 .employment .gfield_description {
+    font-size: 12px;
+}
+
+.single-donation_pages .donation-form-page-2 .gfield span input,
+.single-donation_pages span.address_state select {
+	margin-bottom:10px;
+}
+
+.gform_page {
+margin-top:2em;
+}
+
+.ginput_total {
+    font-weight: bold;
+    font-size: 1.5em;
+}
