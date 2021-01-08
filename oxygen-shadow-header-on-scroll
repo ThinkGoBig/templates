@@ -1,0 +1,17 @@
+// Creates a shadow element on header only on scroll.
+// From oxygen group question here: https://www.facebook.com/groups/1626639680763454/permalink/3606298936130842/ 
+// Add this to a codeblock JS on your main template, and set up a .shadow class in the stylesheets with your desired shadow properties.
+
+$=jQuery;
+$(function() {
+var $header = $("#YOUR_HEADER_ID");
+var $heightTrigger= 150; //this set the height at which the class is applied
+$(window).on('load scroll', function() {
+var scroll = $(window).scrollTop();
+if (scroll >= $heightTrigger) {
+$header.addClass("shadow");
+} else {
+$header.removeClass("shadow");
+}
+});
+});
