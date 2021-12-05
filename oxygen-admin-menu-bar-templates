@@ -1,0 +1,46 @@
+<?php
+
+/*
+** Add Dropdown Custom Oxygen Links to WordPress Admin Bar
+*/
+
+// Add Parent Link
+
+function tbc_toolbar_links($wp_admin_bar) {
+
+    $parent_menu_args = array(
+        'id' => 'dplugins-ct-templates',
+        'title' => '<img src="'.get_bloginfo('stylesheet_directory').'/tbc-oxygen-logo.png" style="padding-right: 6px;">'.'Templates',
+        'href' => esc_url( site_url().'/wp-admin/edit.php?post_type=ct_template' ),
+         'meta' => array(
+           'class' => 'tbc-oxy-templates',
+           'title' => $ct_template->post_title,
+                )
+    );
+    $wp_admin_bar->add_node($parent_menu_args);
+
+    // Add Oxygen templates
+    $ct_templates = get_posts(array(
+        'post_type' => 'ct_template',
+        'posts_per_page' => -1,
+    ));
+    if($ct_templates){
+        foreach($ct_templates as $ct_template){
+            $ct_template_args = array(
+                'id' => 'dplugins-'.$ct_template->post_name,
+                'title' => $ct_template->post_title,
+                'href' => esc_url( site_url().'/wp-admin/post.php?post='.$ct_template->ID.'&action=edit' ),
+                'parent' => 'dplugins-ct-templates',
+                'meta' => array(
+                    'class' => 'dplugins-oxy-templates',
+                    'title' => $ct_template->post_title,
+                )
+            );
+            $wp_admin_bar->add_node($ct_template_args);
+        }
+    }
+}
+
+add_action('admin_bar_menu', 'tbc_toolbar_links', 999);
+
+?> 
