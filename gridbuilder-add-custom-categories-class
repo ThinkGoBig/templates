@@ -5,11 +5,11 @@ function prefix_card_attributes( $atts, $card ) {
 	// Get posts from WPGB Loop
 	$post = wpgb_get_post();
 
-	// If current post has a specific category:
-	if (has_category('this-day-in-fleet-history', $post->ID)) {
+	// If current post has a specific category. Use category slug
+	if (has_category('your-category-slug', $post->ID)) {
 
 		// Add a class to the card
-		$atts['class'] = 'tdifh';
+		$atts['class'] = 'custom-class-name';
 	}
 		return $atts;
 	}
