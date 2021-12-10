@@ -1,0 +1,17 @@
+<?php
+
+function prefix_card_attributes( $atts, $card ) {
+
+	// Get posts from WPGB Loop
+	$post = wpgb_get_post();
+
+	// If current post has a specific category:
+	if (has_category('this-day-in-fleet-history', $post->ID)) {
+
+		// Add a class to the card
+		$atts['class'] = 'tdifh';
+	}
+		return $atts;
+	}
+
+add_filter( 'wp_grid_builder/card/attributes', 'prefix_card_attributes', 10, 2 );
