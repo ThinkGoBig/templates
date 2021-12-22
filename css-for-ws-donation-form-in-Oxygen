@@ -1,0 +1,32 @@
+/* Put this code into the WS form Widget CSS Area in Oxygen Builder */
+
+/* Hides the tabs at the top */
+ul.wsf-group-tabs {
+    display: none !important;
+}
+
+/* Controls the buttons and makes them full width in their columns */
+selector .wsf-label {
+    width:100%;
+}
+
+/* Sets the font weight to bold for the dollar amounts in the button */
+selector label {
+    font-weight: bold !important;
+}
+
+/* Changes the background color of the button when clicked */
+selector input[type=radio].wsf-button:checked + label.wsf-label {
+    background-color: #01b50f;
+    border-color: 01b50f;
+}
+
+/* For donation pages that have a dark background color it helps to change the label text to white for text visibility */
+selector .recurrence label,
+selector .donation-chooser label,
+selector .donation-total .wsf-label,
+selector .employment-picker label,
+selector .wsf-invalid-feedback,
+selector .wsf-help {
+    color: #ffffff;
+}
