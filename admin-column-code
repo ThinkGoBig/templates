@@ -1,0 +1,58 @@
+<?php
+
+add_filter( 'manage_creator_posts_columns', 'set_custom_edit_creator_columns' );
+
+function set_custom_edit_creator_columns( $columns ) {
+
+  $columns['photo'] = __( 'Photo', 'my-text-domain' );
+ // $columns['custom_taxonomy'] = __( 'Custom Taxonomy', 'my-text-domain' );
+  $columns['c_xxxelp_score'] = __( 'xxxelp Score', 'my-text-domain' );
+
+  return $columns;
+}
+
+add_action( 'manage_creator_posts_custom_column' , 'custom_creator_column', 10, 2 );
+
+function custom_creator_column( $column, $post_id ) {
+  switch ( $column ) {
+
+    // display a thumbnail photo
+    case 'photo' :
+      // echo get_the_post_thumbnail( $post_id, 'thumbnail' );
+      echo  get_the_post_thumbnail( $post_id, array( 100, 100) ); 
+      break;
+
+    // display a list of the custom taxonomy terms assigned to the post 
+    // case 'custom_taxonomy' :
+    //  $terms = get_the_term_list( $post_id , 'my_custom_taxonomy' , '' , ', ' , '' );
+    //  echo is_string( $terms ) ? $terms : '—';
+    //  break;
+
+    // display the value of an ACF (Advanced Custom Fields) field
+    case 'c_xxxelp_score' :
+      echo get_field( 'c_xxxelp_score', $post_id );  
+      break;
+
+  }
+}
+
+add_filter( 'manage_edit-creator_sortable_columns', 'set_custom_creator_sortable_columns' );
+
+function set_custom_creator_sortable_columns( $columns ) {
+  //$columns['custom_taxonomy'] = 'custom_taxonomy';
+  $columns['c_xxxelp_score'] = 'c_xxxelp_score';
+
+  return $columns;
+}
+
+add_action( 'pre_get_posts', 'creator_custom_orderby' );
+
+function creator_custom_orderby( $query ) {
+
+  $orderby = $query->get( 'orderby');
+
+  if ( 'c_xxxelp_score' == $orderby ) {
+    $query->set( 'meta_key', 'c_xxxelp_score' );
+    $query->set( 'orderby', 'meta_value_num' );
+  }
+}
