@@ -1,19 +1,22 @@
 <?php
 
-add_filter( 'manage_creator_posts_columns', 'set_custom_edit_creator_columns' );
+// Add the columns to the post area or custom post area
+add_filter( 'manage_xxxx_custom_post_type_slug_xxxx_posts_columns', 'set_custom_edit_xxxx_custom_post_type_slug_xxxx_columns' );
 
-function set_custom_edit_creator_columns( $columns ) {
+function set_custom_edit_xxxx_custom_post_type_slug_xxxx_columns( $columns ) {
 
-  $columns['photo'] = __( 'Photo', 'my-text-domain' );
- // $columns['custom_taxonomy'] = __( 'Custom Taxonomy', 'my-text-domain' );
-  $columns['c_xxxelp_score'] = __( 'xxxelp Score', 'my-text-domain' );
+ // Uncomment items you want in your admin columns
+ // $columns['photo'] = __( 'Photo', '[your-text-domain]' );
+ // $columns['xxxx_custom_taxonomy_slug_xxxx'] = __( 'xxxx Custom Taxonomy Column Heading', '[xxxx-your-text-domain]' );
+  $columns['xxxx_acf_custom_field_name_xxxx'] = __( 'xxxx Custom Field Column Heading', '[xxxx-your-text-domain]' );
 
   return $columns;
 }
 
-add_action( 'manage_creator_posts_custom_column' , 'custom_creator_column', 10, 2 );
+// Add data to the columns
+add_action( 'manage_xxxx_custom_post_type_slug_xxxx_posts_custom_column' , 'custom_xxxx_custom_post_type_slug_xxxx_column', 10, 2 );
 
-function custom_creator_column( $column, $post_id ) {
+function custom_xxxx_custom_post_type_slug_xxxx_column( $column, $post_id ) {
   switch ( $column ) {
 
     // display a thumbnail photo
@@ -23,36 +26,38 @@ function custom_creator_column( $column, $post_id ) {
       break;
 
     // display a list of the custom taxonomy terms assigned to the post 
-    // case 'custom_taxonomy' :
-    //  $terms = get_the_term_list( $post_id , 'my_custom_taxonomy' , '' , ', ' , '' );
+    // case 'xxxx_custom_taxonomy_slug_xxxx' :
+    //  $terms = get_the_term_list( $post_id , 'xxxx_custom_taxonomy_slug_xxxx' , '' , ', ' , '' );
     //  echo is_string( $terms ) ? $terms : '—';
     //  break;
 
     // display the value of an ACF (Advanced Custom Fields) field
-    case 'c_xxxelp_score' :
-      echo get_field( 'c_xxxelp_score', $post_id );  
+    case 'xxxx_acf_custom_field_name_xxxx' :
+      echo get_field( 'xxxx_acf_custom_field_name_xxxx', $post_id );  
       break;
 
   }
 }
 
-add_filter( 'manage_edit-creator_sortable_columns', 'set_custom_creator_sortable_columns' );
+// Make the custom column Sortable
+add_filter( 'manage_edit-xxxx_custom_post_type_slug_xxxx_sortable_columns', 'set_custom_xxxx_custom_post_type_slug_xxxx_sortable_columns' );
 
-function set_custom_creator_sortable_columns( $columns ) {
-  //$columns['custom_taxonomy'] = 'custom_taxonomy';
-  $columns['c_xxxelp_score'] = 'c_xxxelp_score';
+function set_custom_xxxx_custom_post_type_slug_xxxx_sortable_columns( $columns ) {
+  //$columns['xxxx_custom_taxonomy_slug_xxxx'] = 'xxxx_custom_taxonomy_slug_xxxx';
+  $columns['xxxx_acf_custom_field_name_xxxx'] = 'xxxx_acf_custom_field_name_xxxx';
 
   return $columns;
 }
 
-add_action( 'pre_get_posts', 'creator_custom_orderby' );
+// Order the sortable custom column by an ACF (Advanced Custom Field)
+add_action( 'pre_get_posts', 'xxxx_custom_post_type_slug_xxxx_custom_orderby' );
 
-function creator_custom_orderby( $query ) {
+function xxxx_custom_post_type_slug_xxxx_custom_orderby( $query ) {
 
   $orderby = $query->get( 'orderby');
 
-  if ( 'c_xxxelp_score' == $orderby ) {
-    $query->set( 'meta_key', 'c_xxxelp_score' );
+  if ( 'xxxx_acf_custom_field_name_xxxx' == $orderby ) {
+    $query->set( 'meta_key', 'xxxx_acf_custom_field_name_xxxx' );
     $query->set( 'orderby', 'meta_value_num' );
   }
 }
